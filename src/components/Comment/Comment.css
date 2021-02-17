@@ -1,0 +1,69 @@
+.comment {
+  display: flex;
+  margin: 2.4rem;
+}
+
+.comment-thumbnail {
+  margin-right: 16px;
+}
+
+.thumbnail {
+  border-radius: 50%;
+}
+.comment-content-header > a {
+  text-decoration: none;
+}
+.badge {
+  margin-right: 4px;
+  margin-bottom: 2px;
+  color: rgb(3, 3, 3);
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+.time {
+  color: rgb(96, 96, 96);
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+.comment-content-body {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.comment-content-footer span {
+  font-size: 1.3rem;
+  color: rgb(96, 96, 96);
+}
+.comment-content-footer svg {
+  font-size: 1.33333rem;
+  color: rgb(144, 144, 144);
+}
+.mb-1 {
+  margin-bottom: 0.4rem;
+}
+.mb-2 {
+  margin-bottom: 0.8rem;
+}
+.mt-2 {
+  margin-top: 0.8rem;
+}
+.hidden {
+  display: none;
+}
+.brief {
+  max-height: 8rem;
+  overflow: hidden;
+}
+.comment-content-more {
+  color: rgb(96, 96, 96);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.comment-content-body a {
+  text-decoration: none;
+}
+.comment-content-body a:visited {
+  color: rgb(0, 0, 238);
+}
